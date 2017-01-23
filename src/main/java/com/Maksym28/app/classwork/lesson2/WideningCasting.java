@@ -1,4 +1,4 @@
-package main.java.com.Maksym28.app;
+package com.Maksym28.app.classwork.lesson2;
 
 /**
  * Created by lobenko on 19.01.2017.

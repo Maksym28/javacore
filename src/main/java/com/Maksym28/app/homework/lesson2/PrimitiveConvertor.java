@@ -1,4 +1,4 @@
-package main.java.com.Maksym28.app.utils.convertors;
+package com.Maksym28.app.homework.lesson2;
 
 /**
  * Created by lobenko on 23.01.2017.

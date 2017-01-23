@@ -1,6 +1,6 @@
-package main.java.com.Maksym28.app.utils.runners;
+package com.Maksym28.runners.homework.lesson2;
 
-import main.java.com.Maksym28.app.utils.convertors.PrimitiveConvertor;
+import com.Maksym28.app.homework.lesson2.PrimitiveConvertor;
 
 /**
  * Created by lobenko on 23.01.2017.
