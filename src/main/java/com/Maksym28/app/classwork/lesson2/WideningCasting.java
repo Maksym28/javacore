@@ -6,7 +6,7 @@ package com.Maksym28.app.classwork.lesson2;
 
 
 public class WideningCasting {
-    public static void main(String[] args) {
+    public static void MathFunc(String[] args) {
         WideningCasting wideningCasting = new WideningCasting();
         wideningCasting.widening();
     }
@@ -21,6 +21,7 @@ public class WideningCasting {
     {
     double1 = float1 = long1 = int1 = short1 = byte1;
     System.out.println(double1);
+
     }
 
 }
