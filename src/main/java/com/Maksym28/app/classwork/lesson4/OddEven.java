@@ -11,6 +11,8 @@ public class OddEven {
     public static void Check()
 
     {
+        System.out.println("OddEven: this utility checks if the number you've entered is odd or even");
+
         System.out.println("please input number ");
         int number1 = scanner.nextInt();
         int odder1 = number1/2;

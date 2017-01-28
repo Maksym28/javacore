@@ -1,15 +1,14 @@
 package com.Maksym28.runners.classwork.lesson4;
 
-import com.Maksym28.app.classwork.lesson4.CircleArea;
+import com.Maksym28.app.classwork.lesson4.LargerNumber;
 
 /**
  * Created by lobenko on 26.01.2017.
  */
-public class runner4 {
+public class runnerLargerNumber {
     public static void main(String[] args) {
 
-        CircleArea.calculate();
-        CircleArea.calculateBigger();
+        LargerNumber.Check();
     }
 
 
