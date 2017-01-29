@@ -16,7 +16,7 @@ class Lesson4Runner {
             System.out.println("2 - compare areas of two circles ");
             System.out.println("3 - determine which number is larger");
             System.out.println("4 - determine if you number is odd or even ");
-            System.out.println("5 - determine if set of 3 numbers could make the sides of square triangle ");
+            System.out.println("5 - determine if set of 3 integer numbers could make the sides of square triangle ");
             System.out.println("0 - Quit the FastUtils ");
 
            /** String input = scanner.toString();

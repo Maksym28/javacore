@@ -18,7 +18,7 @@ public class TriangleSquareCheck {
         if ((side3==(side1+side2))||(side1==(side2+side3))||(side2==(side1+side3)))
             retString = "Triangle is Right angled";
         else
-            retString = "Triangle could not be not Right Angled";
+            retString = "Triangle could not be Right Angled";
         return retString;
     }
 }

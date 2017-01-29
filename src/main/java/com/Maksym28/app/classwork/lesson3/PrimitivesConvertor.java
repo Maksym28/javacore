@@ -6,10 +6,10 @@ import org.junit.Test;
 /**
  * Created by lobenko on 23.01.2017.
  */
-public class MathFuncTest {
+public class PrimitivesConvertor {
     @Test
     public void multiply() {
-    MathFunc mathFunc = new MathFunc();
+        MathFunc mathFunc = new MathFunc();
         Assert.assertEquals(6, mathFunc.multiply (2,3));
     }
 

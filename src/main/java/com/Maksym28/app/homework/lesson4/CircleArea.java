@@ -13,8 +13,8 @@ public class CircleArea {
 
         double r2 = radius * radius;
         double circleArea = r2 * Math.PI;
-        System.out.println("Area is calculated");
-        return r2;
+       /** System.out.println("Area is calculated"); */
+        return circleArea;
 
     }
 

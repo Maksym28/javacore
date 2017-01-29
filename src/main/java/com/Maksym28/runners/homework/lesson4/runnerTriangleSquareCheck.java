@@ -11,7 +11,7 @@ public class runnerTriangleSquareCheck {
 
     public static void main() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("TriangleSquareCheck: this utility checks if 3 numbers you provided could be the sides of square triangle");
+        System.out.println("TriangleSquareCheck: this utility checks if 3 integer numbers you provided could be the sides of square triangle");
 
         System.out.println("please input side1 ");
         double side1 = scanner.nextDouble();

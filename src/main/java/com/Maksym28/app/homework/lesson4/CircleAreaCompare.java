@@ -15,10 +15,13 @@ public class CircleAreaCompare {
         double area1 = PI * Math.pow(radius1, 2);
         double area2 = PI * Math.pow(radius2, 2);
 
-        if (area1 > area2)
-            return "Area of circle 1 is bigger";
+        if (area1==area2)
+            return "Area of circle 1 is equal to area of circle 2";
         else
-            return "Area of circle 2 is bigger";
+            if (area1 > area2)
+                return "Area of circle 1 is bigger";
+            else
+                return "Area of circle 2 is bigger";
     }
 }
 
