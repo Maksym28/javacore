@@ -1,7 +1,8 @@
 package com.Maksym28.app.homework.lesson4;
 
 import org.junit.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 /**
  * Created by lobenko on 29.01.2017.

@@ -1,7 +1,8 @@
 package com.Maksym28.app.homework.lesson4;
 
 import org.junit.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 
 /**
  * Created by lobenko on 29.01.2017.
@@ -17,7 +18,7 @@ public class TestsTriangleSquareCheck {
         Assert.assertEquals(expResult, TriangleSquareCheck.Check(side1, side2, side3));
     }
         @Test
-        void TriangleSquareCheckTest2() {
+        public void TriangleSquareCheckTest2() {
             double side1 = 10;
             double side2 = 8;
             double side3 = 6;
@@ -26,7 +27,7 @@ public class TestsTriangleSquareCheck {
             Assert.assertEquals(expResult, TriangleSquareCheck.Check(side1, side2, side3));
         }
          @Test
-          void TriangleSquareCheckTest3() {
+          public void TriangleSquareCheckTest3() {
              double side1 = 8;
              double side2 = 6;
              double side3 = 10;
@@ -35,7 +36,7 @@ public class TestsTriangleSquareCheck {
              Assert.assertEquals(expResult, TriangleSquareCheck.Check(side1, side2, side3));
     }
         @Test
-        void TriangleSquareCheckTest4() {
+        public void TriangleSquareCheckTest4() {
             double side1 = 8;
             double side2 = 6;
             double side3 = 6;
@@ -43,8 +44,8 @@ public class TestsTriangleSquareCheck {
 
             Assert.assertEquals(expResult, TriangleSquareCheck.Check(side1, side2, side3));
     }
-        @Test
-        void TriangleSquareCheckTest5() {
+    /** @Test
+            public void TriangleSquareCheckTest5() {
             double side1 = 0.8d;
             double side2 = 0.6d;
             double side3 = 0.1d;
@@ -52,4 +53,5 @@ public class TestsTriangleSquareCheck {
 
             Assert.assertEquals(expResult, TriangleSquareCheck.Check(side1, side2, side3));
         }
+        */
 }
